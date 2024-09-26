@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  sentiment-analysis:
+    image: sentiment-analysis-model:latest  # Use the image you tagged during the build
+    build: .
+    ports:
+      - "5000:5000"  # Expose the container's port 5000 on localhost
+    volumes:
+      - .:/app  # Optional: Mount the current directory to the app directory

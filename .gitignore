@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+env/
+venv/
+
+*.log
+*.pid
+/tmp
+
+# Gradio specific files
+flagged/
+
+# Python cache and other cache files
+*.egg-info/
+.eggs/
+*.egg
+
+# Build files and distribution
+build/
+dist/
+
+# Python virtual environments
+.Python
+env/
+
+# MacOS generated files
+.DS_Store

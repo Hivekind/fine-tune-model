@@ -1,0 +1,7 @@
+torch
+transformers
+gradio
+
+numpy==1.24.4
+
+Flask

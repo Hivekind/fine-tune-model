@@ -1,0 +1,14 @@
+# Exclude the virtual environment
+env/
+
+# Ignore Python cache files
+*.pyc
+__pycache__/
+
+# Optional: Ignore git-related files
+.git/
+
+# Optional: Ignore Docker-related files
+.dockerignore
+Dockerfile
+docker-compose.yml
