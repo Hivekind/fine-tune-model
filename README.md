@@ -80,15 +80,11 @@ The dataset is the [IMDB dataset](https://huggingface.co/datasets/stanfordnlp/im
 
 We fine-tune the model on the IMDB dataset for sentiment analysis. The training was done on Google Colab. The fine-tuned model is saved in the `movie_sentiment_model` directory. The model is saved in the `model.safetensors` format. 
 
-You can find the fine-tuning code here:
-
-- `colab/fine_tune_imdb.ipynb` notebook
+You can find the fine-tuning code [here](colab/fine_tune_imdb.ipynb).
 
 ## Running the model for sentiment analysis on Colab
 
-After fine-tuning the model, we can run the model on Google Colab for sentiment analysis, using the Gradio UI. You can find the code here:
-
-- `colab/movie_sentiment_analysis_UI.ipynb` notebook
+After fine-tuning the model, we can run the model on Google Colab for sentiment analysis, using the Gradio UI. You can find the code [here](colab/movie_sentiment_analysis_UI.ipynb).
 
 ## Docker image for fine-tuned model
 
