@@ -63,7 +63,7 @@ python sentiment_analysis.py
 
 It takes a text input and returns the sentiment of the text, by sending a POST request to the model API server. The UI looks like this:
 
-![Gradio UI](images/gradio_ui.png)
+![Gradio UI](images/gradio_UI.png)
 
 
 # Project Structure
